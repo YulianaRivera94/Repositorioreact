@@ -1,0 +1,31 @@
+.nav {
+    background-color: #333;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Hace que los elementos de la lista se dispongan en línea */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espacio entre cada elemento de la lista */
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em; /* Padding dentro de los enlaces para hacerlo más clicable */
+    display: block; /* Asegura que el área clicable del enlace ocupe todo el espacio disponible */
+}
+
+.nav-links a:hover {
+    background-color: #7f0bec; /* Fondo morado claro al pasar el ratón */
+    color: #fff; /* Texto blanco al pasar el ratón */
+}
+
+.nav-links a:active {
+    background-color: #2e14a3; /* Fondo morado oscuro cuando se presiona */
+    color: #fff; /* Texto blanco cuando se presiona */
+}
